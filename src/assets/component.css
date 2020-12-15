@@ -1,0 +1,123 @@
+
+/* =============== Button Starts =============== */
+.btn-primary,
+.btn-primaryadd,
+.btn-secondary,
+.btn-positive,
+.btn-negative,
+.btn-normal {
+    background: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 8px;
+    padding: 7.5px 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+	font-family: 'Muli', sans-serif;
+    font-weight: normal;
+    font-size: 0.929rem;
+    outline: none;
+}
+.btn-primary, .btn-primaryadd {
+    color: #fff;
+    background-color: #6772e5;
+    border: 1px solid #6772e5;
+}
+.btn-primary:hover, .btn-primaryadd:hover {
+    background-color: #6772e5;
+    border-bottom: solid 1px #545ed4;
+}
+.btn-primary.o {
+    color: #6772e5;
+    background-color: #fff;
+}
+.btn-primary.o:hover {
+    color: #fff;
+    background-color: #6772e5;
+}
+.btn-primaryadd {
+    /* background: #42a2eb url(../images/svgicons.svg) no-repeat 11px -631px; */
+    padding-left: 30px;
+}
+.btn-primaryadd.o {
+    /* background: #fff url(../images/svgicons.svg) no-repeat 11px -662px; */
+    padding-left: 30px;
+    color: #3c98dd;
+}
+.btn-primaryadd.o:hover {
+    border-bottom: solid 1px #1b70b0;
+    /* background: #42a2eb url(../images/svgicons.svg) no-repeat 11px -631px; */
+    color:#fff;
+}
+.btn-secondary {
+    background-color: #fff;
+    color: #3c3c3c;
+    border: solid 1px #c4c4c4;
+}
+.btn-secondary:hover {
+    background-color: #fff;
+    border: solid 1px #abaaaa;
+    border-bottom: solid 1px #777;
+}
+.btn-positive {
+    background-color: #19bc7d;
+    border: solid 1px #19bc7d;
+    color: #fff;
+}
+.btn-positive:hover {
+    background-color: #1ec786;
+    border-bottom: 1px solid #148157;
+}
+.btn-positive.o {
+    background-color: #fff;
+    border: solid 1px #19bc7d;
+    color: #19bc7d;
+}
+.btn-positive.o:hover {
+    background-color: #19bc7d;
+    border-bottom-color: #148157;
+    color: #fff;
+}
+.btn-negative {
+    border: 1px solid transparent;
+    background-color: #ec4844;
+    color: #fff;
+}
+.btn-negative:hover {
+    background-color: #f35652;
+    border-bottom: solid 1px #B11814;
+}
+.btn-negative.o {
+    background-color: #fff;
+    border: 1px solid #f35652;
+    color: #f35652;
+}
+.btn-negative.o:hover {
+    background-color: #f35652;
+    color: #fff;
+    border-bottom: 1px solid #B11814;
+}
+.btn-normal {
+    background-color: #f8f9fb;
+    border: 1px solid #e1e5eb;
+}
+.btn-normal:hover {
+    border-bottom: 1px solid #aaa;
+}
+.btn-x {
+    padding: 5px 10px;
+    font-size: .87rem;
+}
+.btn-2x {
+    padding: 10px 20px;
+    font-size: 1.071rem;
+}
+.btn-3x {
+    padding: 12px 30px;
+    font-size: 1.071rem;
+}
+/* =============== Buttons Ends =============== */
+
+
+
